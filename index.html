@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alona Mariners Resort · Boutique Pool Resort in Tawala, Panglao Island, Bohol</title>
+<meta name="description" content="Alona Mariners Resort — a nautical boutique resort in Tawala, Panglao Island, Bohol. Courtyard pool with cascade waterwall, airy balcony rooms, complimentary breakfast, minutes from Alona Beach and Bohol–Panglao International Airport.">
+<meta name="keywords" content="Alona Mariners Resort, Panglao resort, Bohol hotel, Alona Beach accommodation, Tawala Panglao, resort with pool Bohol">
+<meta property="og:title" content="Alona Mariners Resort · Panglao Island, Bohol">
+<meta property="og:description" content="Drop anchor in paradise — courtyard pool, waterwall lounge, balcony rooms and warm Boholano hospitality, minutes from Alona Beach.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero-pool-courtyard.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%23081826'/%3E%3Cg stroke='%23c6a15b' stroke-width='1.5' fill='none' stroke-linecap='round'%3E%3Ccircle cx='12' cy='5' r='2.6'/%3E%3Cpath d='M12 22V8'/%3E%3Cpath d='M4.5 12H2.3a9.7 9.7 0 0 0 19.4 0h-2.2'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* small page-scoped refinements */
+  .g-item{padding:0;text-align:left}
+  .room-foot .btn{padding:12px 22px;font-size:.68rem}
+  .room-price{font-size:.78rem;color:var(--muted);letter-spacing:.04em}
+  .room-price b{font-family:var(--serif);color:var(--gold-deep);font-size:1.35rem;font-weight:500}
+  .bb-field select{cursor:pointer}
+  .bb-field select option{color:var(--ink)}
+  .form-field textarea{resize:vertical;min-height:96px}
+  .foot-legal a{text-decoration:underline;text-underline-offset:3px}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Alona Mariners Resort",
+  "description": "Nautical-themed boutique resort in Tawala, Panglao Island, Bohol with outdoor pool and waterwall, poolside snack bar, complimentary breakfast, and balcony rooms near Alona Beach.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Purok 7, Ester A. Lim Drive, Tawala",
+    "addressLocality": "Panglao",
+    "addressRegion": "Bohol",
+    "postalCode": "6300",
+    "addressCountry": "PH"
+  },
+  "telephone": "+63-38-427-1556",
+  "geo": { "@type": "GeoCoordinates", "latitude": 9.5524405, "longitude": 123.7770762 },
+  "hasMap": "https://maps.google.com/?q=Alona+Mariners+Resort+Panglao",
+  "starRating": { "@type": "Rating", "ratingValue": "3" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "70" },
+  "priceRange": "₱2,091 – ₱2,890",
+  "checkinTime": "14:00",
+  "checkoutTime": "12:00",
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Outdoor swimming pool" },
+    { "@type": "LocationFeatureSpecification", "name": "Poolside snack bar" },
+    { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi" },
+    { "@type": "LocationFeatureSpecification", "name": "Complimentary breakfast" },
+    { "@type": "LocationFeatureSpecification", "name": "Free parking" },
+    { "@type": "LocationFeatureSpecification", "name": "Airport transfers" },
+    { "@type": "LocationFeatureSpecification", "name": "Room service" }
+  ],
+  "image": "images/hero-pool-courtyard.jpg"
+}
+</script>
+</head>
+<body>
+
+<!-- ======= Preloader ======= -->
+<div id="preloader" aria-hidden="true">
+  <svg class="anchor-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <circle cx="12" cy="5" r="2.6"/><path d="M12 22V8"/><path d="M4.5 12H2.3a9.7 9.7 0 0 0 19.4 0h-2.2"/>
+  </svg>
+  <div class="brand">Alona Mariners</div>
+  <div class="bar"><i></i></div>
+</div>
+
+<!-- ======= Toast ======= -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ======= Top bar ======= -->
+<div class="topbar">
+  <div class="container">
+    <a href="tel:+63384271556">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+      (038) 427 1556
+    </a>
+    <div class="right">
+      <a class="hide-m" href="https://maps.google.com/?q=Alona+Mariners+Resort+Panglao" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Purok 7, Tawala, Panglao, Bohol
+      </a>
+      <span class="badge-direct">Book direct · Best rate</span>
+    </div>
+  </div>
+</div>
+
+<!-- ======= Navigation ======= -->
+<header class="nav">
+  <div class="container">
+    <a class="brand" href="#home" aria-label="Alona Mariners Resort home">
+      <svg class="anchor-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+        <circle cx="12" cy="5" r="2.6"/><path d="M12 22V8"/><path d="M4.5 12H2.3a9.7 9.7 0 0 0 19.4 0h-2.2"/>
+      </svg>
+      <span class="brand-name">Alona Mariners<span>Resort · Panglao</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#stay">The Resort</a>
+      <a href="#rooms">Rooms</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <button class="btn btn-gold nav-cta" id="booking-open" type="button">Book Now</button>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ======= Hero ======= -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="images/hero-pool-courtyard.jpg" alt="The courtyard of Alona Mariners Resort — blue swimming pool ringed by loungers and white balcony buildings" fetchpriority="high">
+  </div>
+  <div class="container">
+    <div class="hero-rating reveal">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <span><b>4.6</b> · 70 Google reviews</span>
+    </div>
+    <h1 class="reveal" data-delay="100">Alona <em>Mariners</em> Resort</h1>
+    <p class="hero-sub reveal" data-delay="200">
+      A nautical boutique retreat in Tawala, Panglao — courtyard pool and cascade waterwall,
+      airy balcony rooms, and the white sands of Alona Beach just a twenty-minute stroll away.
+    </p>
+    <div class="hero-actions reveal" data-delay="300">
+      <a class="btn btn-gold" href="#rooms">Explore the Rooms
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <button class="btn btn-outline on-dark" type="button" data-book>Book Your Stay</button>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><span>Set Sail</span><i></i></div>
+</section>
+
+<!-- ======= Booking bar ======= -->
+<div class="booking-bar container">
+  <div class="booking-bar-inner">
+    <div class="bb-field">
+      <label for="bb-checkin">Check-in</label>
+      <input type="date" id="bb-checkin">
+    </div>
+    <div class="bb-field">
+      <label for="bb-checkout">Check-out</label>
+      <input type="date" id="bb-checkout">
+    </div>
+    <div class="bb-field">
+      <label>Guests</label>
+      <div class="bb-stepper">
+        <button type="button" data-step="-" aria-label="Fewer guests">−</button>
+        <output id="bb-guests">2</output>
+        <button type="button" data-step="+" aria-label="More guests">+</button>
+      </div>
+    </div>
+    <div class="bb-field">
+      <label for="bb-room">Room</label>
+      <select id="bb-room">
+        <option value="">Any room</option>
+        <option value="twin">Mariner Twin</option>
+        <option value="double">Captain's Double</option>
+        <option value="family">Family Quarter</option>
+      </select>
+    </div>
+    <div class="bb-submit">
+      <button class="btn btn-gold" id="bb-submit" type="button">Check Rates</button>
+    </div>
+  </div>
+</div>
+
+<!-- ======= Marquee ======= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Complimentary Breakfast <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Outdoor Pool &amp; Waterwall <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Poolside Snack Bar <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Free Wi-Fi <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Airport Transfers <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Billiards Lounge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>24-Hour Front Desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Complimentary Breakfast <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Outdoor Pool &amp; Waterwall <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Poolside Snack Bar <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Free Wi-Fi <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Airport Transfers <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>Billiards Lounge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+    <span>24-Hour Front Desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 21V8.5"/><path d="M5.5 12.5H3.6a8.4 8.4 0 0 0 16.8 0h-1.9"/></svg></span>
+  </div>
+</div>
+
+<!-- ======= The Resort / About ======= -->
+<section class="section" id="stay">
+  <div class="container grid-2">
+    <div class="about-frame reveal-l">
+      <div class="about-grid">
+        <img class="tall" src="images/resort-anchor-sign.jpg" alt="The Alona Mariners Resort anchor sign wall beside the pool" loading="lazy">
+        <img class="short" src="images/nautical-lounge.jpg" alt="Welcome-aboard lounge with blue wicker seating and ship's wheel" loading="lazy">
+        <img class="short" src="images/facade-balconies.jpg" alt="Resort facade with handcrafted wooden balconies" loading="lazy">
+      </div>
+      <div class="about-exp">
+        <div class="num"><span data-count="4.6">0</span><sup>★</sup></div>
+        <p>Google rating · 70 verified reviews</p>
+      </div>
+    </div>
+    <div class="about-copy reveal-r">
+      <span class="eyebrow">The Resort</span>
+      <h2 class="section-title">A quiet harbor, minutes from <em>Alona Beach</em></h2>
+      <p class="lead">
+        Tucked along Ester A. Lim Drive in Tawala, Alona Mariners Resort keeps a sailor's calm
+        at the heart of Panglao. Handcrafted wooden balconies look down on a mosaic-tiled pool
+        and its gentle cascade wall; the "Welcome Aboard" lounge pours cold drinks beneath a
+        ship's wheel; and every morning begins with breakfast on the house.
+      </p>
+      <ul class="about-points">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          Courtyard swimming pool with cascade waterwall and sun deck
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          Spacious air-conditioned rooms with balcony or terrace, cable TV, fridge and kettle
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          Complimentary breakfast, poolside snack bar and billiards lounge
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          ~20-minute stroll to Alona Beach · 5-minute drive to Bohol–Panglao International Airport
+        </li>
+      </ul>
+      <a class="link-underline" href="#gallery">Step aboard — view the gallery
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <p class="signature">— The Alona Mariners family, Tawala</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Stats band ======= -->
+<section class="stats-band" aria-label="Ratings">
+  <div class="container">
+    <div class="stat">
+      <div class="num"><span data-count="4.6">0</span><sup>/5</sup></div>
+      <p>Google rating</p>
+    </div>
+    <div class="stat">
+      <div class="num"><span data-count="9.1">0</span><sup>/10</sup></div>
+      <p>Value for money · Agoda</p>
+    </div>
+    <div class="stat">
+      <div class="num"><span data-count="2">0</span><sup>km</sup></div>
+      <p>To the airport</p>
+    </div>
+    <div class="stat">
+      <div class="num"><span data-count="20">0</span><sup>min</sup></div>
+      <p>Stroll to Alona Beach</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Rooms ======= -->
+<section class="section rooms-section" id="rooms">
+  <div class="container">
+    <div class="rooms-head reveal">
+      <div>
+        <span class="eyebrow">Stay With Us</span>
+        <h2 class="section-title">Rooms &amp; <em>quarters</em></h2>
+        <p class="lead">Fresh linens, cool air, and a balcony over the water — every room faces the courtyard pool.</p>
+      </div>
+      <a class="link-underline" href="tel:+63384271556">Need help choosing? Call (038) 427 1556</a>
+    </div>
+
+    <div class="room-grid">
+      <!-- Twin -->
+      <article class="room-card reveal" data-delay="0">
+        <div class="room-media">
+          <span class="room-flag">Best value</span>
+          <img src="images/room-twin.jpg" alt="Mariner Twin Room — two dressed beds with teal headboards" loading="lazy">
+          <div class="room-rate">from <b>₱2,091</b> / night</div>
+        </div>
+        <div class="room-body">
+          <h3>Mariner Twin Room</h3>
+          <p class="room-sub">Pool view · Sleeps 2</p>
+          <p class="room-desc">Crisp twin bedding, teal accents and a window over the courtyard pool — the traveller's favourite for value.</p>
+          <ul class="room-amen">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Pool view</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Air conditioning</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Cable TV</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Refrigerator</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Free Wi-Fi</li>
+          </ul>
+          <div class="room-foot">
+            <span class="room-price">From <b>₱2,091</b> / night</span>
+            <button class="btn btn-outline" type="button" data-room="twin">Reserve</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Double -->
+      <article class="room-card reveal" data-delay="120">
+        <div class="room-media">
+          <span class="room-flag">Most loved</span>
+          <img src="images/room-double.jpg" alt="Captain's Double Room — dressed double bed with blue runner, TV and writing desk" loading="lazy">
+          <div class="room-rate">from <b>₱2,350</b> / night</div>
+        </div>
+        <div class="room-body">
+          <h3>Captain's Double Room</h3>
+          <p class="room-sub">Balcony · Sleeps 2</p>
+          <p class="room-desc">A generous double bed, writing desk and a private balcony above the waterwall — made for slow island mornings.</p>
+          <ul class="room-amen">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Private balcony</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Air conditioning</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Cable TV</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Electric kettle</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>In-room safe</li>
+          </ul>
+          <div class="room-foot">
+            <span class="room-price">From <b>₱2,350</b> / night</span>
+            <button class="btn btn-outline" type="button" data-room="double">Reserve</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Family -->
+      <article class="room-card reveal" data-delay="240">
+        <div class="room-media">
+          <span class="room-flag">For families</span>
+          <img src="images/room-family.jpg" alt="Family Quarter — two double beds against a green and blue striped feature wall" loading="lazy">
+          <div class="room-rate">from <b>₱2,890</b> / night</div>
+        </div>
+        <div class="room-body">
+          <h3>Family Quarter</h3>
+          <p class="room-sub">Two double beds · Sleeps 4</p>
+          <p class="room-desc">Two double beds and room to breathe — space for the whole crew, with the pool just steps from your door.</p>
+          <ul class="room-amen">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>2 double beds</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Air conditioning</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Cable TV</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Refrigerator</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Free Wi-Fi</li>
+          </ul>
+          <div class="room-foot">
+            <span class="room-price">From <b>₱2,890</b> / night</span>
+            <button class="btn btn-outline" type="button" data-room="family">Reserve</button>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="center" style="margin-top:36px;font-size:.8rem;color:var(--muted)">
+      Indicative starting rates based on recent published prices — final rates depend on dates and availability. Taxes shown at booking.
+    </p>
+  </div>
+</section>
+
+<!-- ======= Amenities ======= -->
+<section class="section" id="amenities">
+  <div class="container">
+    <div class="amen-feature">
+      <div class="media reveal-l">
+        <img src="images/pool-cascade.jpg" alt="The resort pool with its mosaic cascade waterwall and anchor sign" loading="lazy">
+      </div>
+      <div class="reveal-r">
+        <span class="eyebrow">On Deck</span>
+        <h2 class="section-title">Days shaped around <em>the water</em></h2>
+        <ul class="amen-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 16c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0M2 20c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0M7 12V6a2 2 0 0 1 4 0M11 8h4l2 4"/></svg>
+            <div><h4>Outdoor pool &amp; cascade waterwall</h4><p>Cool off beneath the mosaic water wall; loungers and deep-blue armchairs ring the sun deck.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M8 22h8M12 15v7M5 3h14l-1.5 8.5a5.6 5.6 0 0 1-11 0L5 3z"/></svg>
+            <div><h4>Poolside snack bar</h4><p>Cold drinks and light bites served right to your lounger — swimwear very much welcome.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 8-3 8h18s-3-1-3-8M10.3 21a1.9 1.9 0 0 0 3.4 0M8 3.5V2M16 3.5V2"/></svg>
+            <div><h4>Complimentary breakfast</h4><p>Every island morning starts well — breakfast is on the house with every stay.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="9" cy="15" r="5"/><path d="M13.5 10.5L22 2M15 2l7 7"/></svg>
+            <div><h4>Billiards lounge</h4><p>A pool table waits in the "Welcome Aboard" lounge for unhurried evenings in.</p></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="amen-grid reveal">
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 12.9a11 11 0 0 1 14 0M8.5 16.4a6 6 0 0 1 7 0M2 9.4a15.5 15.5 0 0 1 20 0"/><circle cx="12" cy="20" r="1.2" fill="currentColor"/></svg>
+        <h4>Free Wi-Fi</h4><p>High-speed internet in every room and public area.</p>
+      </div>
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M17.8 19.2L16 11l3.5-3.5a2.1 2.1 0 0 0-3-3L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+        <h4>Airport transfers</h4><p>Pick-up &amp; drop-off at Bohol–Panglao Int'l, just 2&nbsp;km away.</p>
+      </div>
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 11l2-5h10l2 5M5 11h14M5 11a2 2 0 0 0-2 2v3h2m14-5a2 2 0 0 1 2 2v3h-2m-14 0h14m-14 0v2m14-2v2"/><circle cx="7.5" cy="14" r="1"/><circle cx="16.5" cy="14" r="1"/></svg>
+        <h4>Car &amp; motorbike hire</h4><p>Explore Panglao and the Bohol mainland at your own pace.</p>
+      </div>
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 3l1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3zM19 14l.9 2.1L22 17l-2.1.9L19 20l-.9-2.1L16 17l2.1-.9L19 14zM5 15l.7 1.6L7.3 17l-1.6.7L5 19.3l-.7-1.6L2.7 17l1.6-.4L5 15z"/></svg>
+        <h4>Daily housekeeping</h4><p>Fresh linens and a spotless room, every single day.</p>
+      </div>
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        <h4>24-hour front desk</h4><p>Late arrivals and dawn tour departures, handled with a smile.</p>
+      </div>
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="4" y="10" width="16" height="10" rx="1.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15" r="1.4" fill="currentColor"/></svg>
+        <h4>In-room safe</h4><p>Secure your valuables while you're out on the water.</p>
+      </div>
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="5" y="4" width="14" height="13" rx="2"/><path d="M9 21h6M12 17v4"/></svg>
+        <h4>Entrance &amp; parking</h4><p>Free gated parking, monitored around the clock.</p>
+      </div>
+      <div class="amen-cell">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6"/></svg>
+        <h4>Room service</h4><p>Meals, drinks and coffee delivered straight to your door.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Gallery ======= -->
+<section class="section gallery-section" id="gallery">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow centered on-dark">The Gallery</span>
+      <h2 class="section-title on-dark">Postcards from <em>the resort</em></h2>
+      <p class="lead" style="margin-inline:auto">Every photograph below was taken on property or along our shoreline — no stock imagery.</p>
+    </div>
+    <div class="gallery-filters reveal">
+      <button class="g-filter active" data-filter="all" type="button">All</button>
+      <button class="g-filter" data-filter="resort" type="button">The Resort</button>
+      <button class="g-filter" data-filter="pool" type="button">Pool</button>
+      <button class="g-filter" data-filter="rooms" type="button">Rooms</button>
+      <button class="g-filter" data-filter="around" type="button">Around Panglao</button>
+    </div>
+    <div class="gallery-grid">
+      <button class="g-item reveal" data-cat="resort" data-cap="The Courtyard"><img src="images/hero-pool-courtyard.jpg" alt="Resort courtyard and pool from the upper deck" loading="lazy"><span class="g-cap">The Courtyard</span></button>
+      <button class="g-item reveal" data-cat="pool" data-cap="The Waterwall Pool"><img src="images/pool-panorama.jpg" alt="Long view of the swimming pool beside the mosaic waterwall" loading="lazy"><span class="g-cap">The Waterwall Pool</span></button>
+      <button class="g-item reveal" data-cat="rooms" data-cap="Mariner Twin Room"><img src="images/room-twin.jpg" alt="Twin room with two beds and teal headboards" loading="lazy"><span class="g-cap">Mariner Twin Room</span></button>
+      <button class="g-item reveal" data-cat="resort" data-cap="Welcome Aboard Lounge"><img src="images/nautical-lounge.jpg" alt="Blue wicker lounge with ship's wheel wall decor" loading="lazy"><span class="g-cap">Welcome Aboard Lounge</span></button>
+      <button class="g-item reveal" data-cat="pool" data-cap="The Cascade"><img src="images/pool-cascade.jpg" alt="Water cascading down the mosaic wall into the pool" loading="lazy"><span class="g-cap">The Cascade</span></button>
+      <button class="g-item reveal" data-cat="rooms" data-cap="Captain's Double Room"><img src="images/room-double.jpg" alt="Double room with blue runner, television and desk" loading="lazy"><span class="g-cap">Captain's Double Room</span></button>
+      <button class="g-item reveal" data-cat="resort" data-cap="The Anchor Wall"><img src="images/resort-anchor-sign.jpg" alt="Alona Mariners Resort anchor sign on a white wall by the pool" loading="lazy"><span class="g-cap">The Anchor Wall</span></button>
+      <button class="g-item reveal" data-cat="rooms" data-cap="Family Quarter"><img src="images/room-family.jpg" alt="Family room with two double beds and striped feature wall" loading="lazy"><span class="g-cap">Family Quarter</span></button>
+      <button class="g-item reveal" data-cat="around" data-cap="Alona Beach"><img src="images/alona-beach.jpg" alt="White sand and palm trees at Alona Beach" loading="lazy"><span class="g-cap">Alona Beach</span></button>
+      <button class="g-item reveal" data-cat="resort" data-cap="Mariner's Balconies"><img src="images/facade-balconies.jpg" alt="Handcrafted wooden balconies of the resort facade" loading="lazy"><span class="g-cap">Mariner's Balconies</span></button>
+      <button class="g-item reveal" data-cat="pool" data-cap="Balcony Overlook"><img src="images/balcony-view.jpg" alt="View from a room balcony across the pool to the far wing" loading="lazy"><span class="g-cap">Balcony Overlook</span></button>
+      <button class="g-item reveal" data-cat="rooms" data-cap="Morning Coffee, In-Room"><img src="images/room-coffee-tray.jpg" alt="Coffee and electric kettle tray inside a room" loading="lazy"><span class="g-cap">Morning Coffee, In-Room</span></button>
+      <button class="g-item reveal" data-cat="around" data-cap="Panglao White Beach"><img src="images/panglao-white-beach.jpg" alt="Calm turquoise water along a Panglao white beach" loading="lazy"><span class="g-cap">Panglao White Beach</span></button>
+      <button class="g-item reveal" data-cat="rooms" data-cap="Mosaic Bath"><img src="images/bathroom-1.jpg" alt="Bathroom with mosaic tiled walls" loading="lazy"><span class="g-cap">Mosaic Bath</span></button>
+      <button class="g-item reveal" data-cat="resort" data-cap="To the Upper Deck"><img src="images/staircase.jpg" alt="Wooden staircase with potted plants leading to upper rooms" loading="lazy"><span class="g-cap">To the Upper Deck</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Experiences ======= -->
+<section class="section" id="experiences">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow centered">Beyond the Resort</span>
+      <h2 class="section-title">Voyages from <em>your doorstep</em></h2>
+      <p class="lead" style="margin-inline:auto">Panglao and the Bohol mainland hold the Philippines' great natural treasures — all within an easy day of your room.</p>
+    </div>
+    <div class="exp-grid" style="margin-top:54px">
+      <a class="exp-card reveal" data-delay="0" href="https://maps.google.com/?q=Alona+Beach+Panglao" target="_blank" rel="noopener">
+        <img src="images/alona-beach.jpg" alt="Palm-fringed white sand at Alona Beach" loading="lazy">
+        <div class="exp-body">
+          <span class="exp-dist">~1.5 km · 20-min stroll</span>
+          <h3>Alona Beach</h3>
+          <p>Panglao's famous strip of powder sand — swim, dine barefoot, and watch the paraw sails at sunset.</p>
+        </div>
+      </a>
+      <a class="exp-card reveal" data-delay="80" href="https://maps.google.com/?q=Dumaluan+Beach+Panglao" target="_blank" rel="noopener">
+        <img src="images/panglao-white-beach.jpg" alt="Quiet white beach with shallow turquoise water" loading="lazy">
+        <div class="exp-body">
+          <span class="exp-dist">~6 km · 12-min drive</span>
+          <h3>Panglao White Beaches</h3>
+          <p>Dumaluan and White Beach — long, calm and crowd-free, with knee-deep turquoise shallows.</p>
+        </div>
+      </a>
+      <a class="exp-card reveal" data-delay="160" href="https://maps.google.com/?q=Balicasag+Island" target="_blank" rel="noopener">
+        <img src="images/exp-balicasag.jpg" alt="Green sea turtle swimming over coral at Balicasag Island" loading="lazy">
+        <div class="exp-body">
+          <span class="exp-dist">Boat from Alona · ~45 min</span>
+          <h3>Balicasag Island Hopping</h3>
+          <p>Dolphin watching at dawn, then snorkel Balicasag's marine sanctuary with sea turtles and jackfish.</p>
+        </div>
+      </a>
+      <a class="exp-card reveal" data-delay="0" href="https://maps.google.com/?q=Hinagdanan+Cave+Dauis" target="_blank" rel="noopener">
+        <img src="images/exp-hinagdanan.jpg" alt="Stalactites above the emerald lagoon inside Hinagdanan Cave" loading="lazy">
+        <div class="exp-body">
+          <span class="exp-dist">Dauis · ~15-min drive</span>
+          <h3>Hinagdanan Cave</h3>
+          <p>A limestone cavern of stalactites with an emerald swimmable lagoon, lit by natural skylights.</p>
+        </div>
+      </a>
+      <a class="exp-card reveal" data-delay="80" href="https://maps.google.com/?q=Chocolate+Hills+Carmen+Bohol" target="_blank" rel="noopener">
+        <img src="images/exp-chocolate-hills.jpg" alt="Rolling green Chocolate Hills of Bohol" loading="lazy">
+        <div class="exp-body">
+          <span class="exp-dist">Carmen · ~2-hr tour</span>
+          <h3>Chocolate Hills</h3>
+          <p>Over a thousand symmetrical mounds turning cocoa-brown in summer — Bohol's iconic horizon.</p>
+        </div>
+      </a>
+      <a class="exp-card reveal" data-delay="160" href="https://maps.google.com/?q=Philippine+Tarsier+Sanctuary+Corella" target="_blank" rel="noopener">
+        <img src="images/exp-tarsier.jpg" alt="A Philippine tarsier clinging to a branch" loading="lazy">
+        <div class="exp-body">
+          <span class="exp-dist">Corella · ~45-min drive</span>
+          <h3>Tarsier Sanctuary</h3>
+          <p>Meet one of the world's smallest primates at the Philippine Tarsier Sanctuary — quiet voices required.</p>
+        </div>
+      </a>
+    </div>
+    <p class="exp-note reveal">Our front desk arranges <b>island hopping, countryside tours, transfers and motorbike hire</b> — simply ask at check-in.</p>
+  </div>
+</section>
+
+<!-- ======= Reviews ======= -->
+<section class="section reviews-section" id="reviews">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow centered">Guest Log</span>
+      <h2 class="section-title">Words from <em>the guestbook</em></h2>
+    </div>
+
+    <div class="review-shell reveal">
+      <div class="review-track">
+        <div class="review-slide">
+          <span class="review-mark">“</span>
+          <p class="review-text">Spacious room, good air-conditioning, a comfy bed and genuinely friendly staff — plus a wonderful restaurant right next door.</p>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-who"><b>Gilad M.</b> · Tripadvisor review</p>
+        </div>
+        <div class="review-slide">
+          <span class="review-mark">“</span>
+          <p class="review-text">The rooms are beautiful and clean, the staff are so kind — and the sea is only about twenty minutes away.</p>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-who"><b>Verified guest</b> · Google review, translated</p>
+        </div>
+        <div class="review-slide">
+          <span class="review-mark">“</span>
+          <p class="review-text">Travellers on Agoda rate the resort "Excellent" — with a standout 9.1 out of 10 for value for money.</p>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-who"><b>Agoda verified stays</b> · aggregate guest rating</p>
+        </div>
+      </div>
+      <div class="review-nav">
+        <button class="r-arrow" id="r-prev" type="button" aria-label="Previous review">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="r-dots"></div>
+        <button class="r-arrow" id="r-next" type="button" aria-label="Next review">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="review-badges reveal">
+      <div class="badge-card">
+        <span class="score">4.6</span>
+        <span class="who"><b>Google</b>70 reviews</span>
+      </div>
+      <div class="badge-card">
+        <span class="score">8.8</span>
+        <span class="who"><b>Agoda</b>"Excellent" / 10</span>
+      </div>
+      <div class="badge-card">
+        <span class="score">9.1</span>
+        <span class="who"><b>Value for money</b>Agoda guest score</span>
+      </div>
+      <div class="badge-card">
+        <span class="score">4.7</span>
+        <span class="who"><b>Location</b>Excellent for visitors</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Location ======= -->
+<section class="section" id="location">
+  <div class="container">
+    <div class="location-wrap">
+      <div class="reveal-l">
+        <span class="eyebrow">Chart a Course</span>
+        <h2 class="section-title">Where to <em>find us</em></h2>
+        <p class="lead">Purok 7, Ester A. Lim Drive, Tawala — a quiet side of Panglao, between the airport and the beach.</p>
+        <ul class="loc-list">
+          <li><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M17.8 19.2L16 11l3.5-3.5a2.1 2.1 0 0 0-3-3L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>Bohol–Panglao Int'l Airport</span><span>2.0 km · 5 min</span></li>
+          <li><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M2 16c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0M2 20c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0"/></svg>Alona Beach</span><span>~1.5 km · 20-min walk</span></li>
+          <li><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M2 16c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0M2 20c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0"/></svg>Dumaluan White Beach</span><span>~6 km · 12 min</span></li>
+          <li><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7l3-7z"/></svg>Hinagdanan Cave, Dauis</span><span>~9 km · 15 min</span></li>
+          <li><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>Nova Shell Museum</span><span>4.4 km · 10 min</span></li>
+          <li><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 11l2-5h10l2 5M5 11h14M5 11a2 2 0 0 0-2 2v3h2m14-5a2 2 0 0 1 2 2v3h-2m-14 0h14"/></svg>Tagbilaran City</span><span>~14 km · 25 min</span></li>
+          <li><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>Jeepney stop to Tagbilaran</span><span>5-min walk</span></li>
+        </ul>
+        <a class="btn btn-navy" href="https://www.google.com/maps/dir/?api=1&amp;destination=Alona+Mariners+Resort+Panglao" target="_blank" rel="noopener">Get Directions
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="map-card reveal-r">
+        <iframe title="Map — Alona Mariners Resort, Tawala, Panglao" src="https://www.google.com/maps?q=Alona+Mariners+Resort+Panglao&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-overlay">
+          <h4>Alona Mariners Resort</h4>
+          <p>Purok 7, Ester A. Lim Drive, Tawala, Panglao, 6300 Bohol · Plus code HQ2G+XR</p>
+          <a class="link-underline" href="https://maps.google.com/?q=Alona+Mariners+Resort+Panglao" target="_blank" rel="noopener">Open in Google Maps
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Contact / Booking ======= -->
+<section class="section booking-section on-dark" id="contact">
+  <div class="container booking-wrap">
+    <div class="reveal-l">
+      <span class="eyebrow on-dark">Reservations</span>
+      <h2 class="section-title on-dark">Signal the <em>harbor master</em></h2>
+      <p class="lead">Questions, special requests, group stays — write to us any time and the front desk will reply within a day. For instant confirmation, book through our partners below.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+          <div>
+            <h4>Reservations &amp; front desk</h4>
+            <a href="tel:+63384271556">(038) 427 1556</a>
+            <p>Open 24 hours · English &amp; Filipino spoken</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <h4>Address</h4>
+            <p>Purok 7, Ester A. Lim Drive, Tawala,<br>Panglao Island, 6300 Bohol, Philippines</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <div>
+            <h4>Arrival &amp; departure</h4>
+            <p>Check-in 2:00 PM – 8:00 PM<br>Check-out until 12:00 noon</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7l3-7z"/></svg>
+          <div>
+            <h4>Instant booking</h4>
+            <p>Reserve instantly via
+              <a href="https://www.agoda.com/en-in/alona-mariners-resort/hotel/bohol-ph.html" target="_blank" rel="noopener">Agoda</a> or
+              <a href="https://www.tripadvisor.in/Hotel_Review-g4013744-d25192816-Reviews-Alona_Mariners_Resort-Tawala_Panglao_Panglao_Island_Bohol_Province_Visayas.html" target="_blank" rel="noopener">Tripadvisor</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card reveal-r">
+      <h3>Send us a message</h3>
+      <p class="sub">We usually reply within 24 hours.</p>
+      <form id="contact-form" class="form-grid" novalidate>
+        <div class="form-field">
+          <label for="c-name">Full name</label>
+          <input type="text" id="c-name" autocomplete="name" placeholder="Juan Dela Cruz">
+          <span class="err">Please enter your name.</span>
+        </div>
+        <div class="form-field">
+          <label for="c-email">Email</label>
+          <input type="email" id="c-email" autocomplete="email" placeholder="you@example.com">
+          <span class="err">Please enter a valid email.</span>
+        </div>
+        <div class="form-field full">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" placeholder="Dates, number of guests, airport pick-up, celebrations…"></textarea>
+          <span class="err">Please write at least a short message.</span>
+        </div>
+        <button class="btn btn-gold" type="submit">Send Message</button>
+        <button class="btn btn-outline" type="button" id="c-wa-btn" hidden style="grid-column:1/-1;padding:14px;font-size:.7rem">Or send this message via WhatsApp</button>
+        <p class="form-note">Your details are used only to answer your inquiry.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ======= FAQ ======= -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow centered">Good to Know</span>
+      <h2 class="section-title">Questions, <em>answered</em></h2>
+    </div>
+    <div class="faq-wrap reveal">
+      <div class="faq-item">
+        <button class="faq-q" type="button">How far is the resort from Alona Beach?<span class="fi">+</span></button>
+        <div class="faq-a"><p>Alona Beach is roughly 1.5 km away — about a 20-minute stroll, or a few minutes by tricycle, which our front desk can flag for you at any hour. Dumaluan's quieter white beaches are a 12-minute drive.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Do you arrange airport transfers?<span class="fi">+</span></button>
+        <div class="faq-a"><p>Yes. Bohol–Panglao International Airport (TAG) is only 2 km from the resort. Send your flight details with your booking inquiry and we'll have a car waiting. Car and motorbike hire can also be arranged at the front desk.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Is breakfast included in the rate?<span class="fi">+</span></button>
+        <div class="faq-a"><p>Yes — a complimentary breakfast is served for staying guests, and our poolside snack bar serves drinks and light bites through the day. Several well-reviewed restaurants, including Lekker Garden next door, are a short walk away.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">What are the check-in and check-out times?<span class="fi">+</span></button>
+        <div class="faq-a"><p>Check-in is between 2:00 PM and 8:00 PM, and check-out is until 12:00 noon. Arriving on a late flight? Just tell us in advance — the front desk is staffed 24 hours.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Which payment methods do you accept?<span class="fi">+</span></button>
+        <div class="faq-a"><p>We accept Visa, Mastercard, American Express, JCB, Diners Club and UnionPay, as well as Philippine peso cash. Rates booked through partners like Agoda follow the partner's own payment and cancellation terms.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">Can I cancel or change my reservation?<span class="fi">+</span></button>
+        <div class="faq-a"><p>Most published rates include free cancellation until shortly before arrival (for example, up to the day before check-in on major platforms). For direct inquiries, note your dates in the message and we'll confirm the applicable policy by email.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Footer ======= -->
+<footer>
+  <div class="container">
+    <div class="foot-main">
+      <div class="foot-brand">
+        <a class="brand" href="#home">
+          <svg class="anchor-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" style="width:34px;height:34px;color:var(--gold)">
+            <circle cx="12" cy="5" r="2.6"/><path d="M12 22V8"/><path d="M4.5 12H2.3a9.7 9.7 0 0 0 19.4 0h-2.2"/>
+          </svg>
+          <span class="brand-name">Alona Mariners<span>Resort · Panglao</span></span>
+        </a>
+        <p>A nautical boutique resort in Tawala, Panglao Island — courtyard pool, balcony rooms and warm Boholano hospitality.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#stay">The Resort</a></li>
+          <li><a href="#rooms">Rooms &amp; Rates</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/></svg>Purok 7, Tawala, Panglao</li>
+          <li><a href="tel:+63384271556"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>(038) 427 1556</a></li>
+          <li><a href="https://www.agoda.com/en-in/alona-mariners-resort/hotel/bohol-ph.html" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7l3-7z"/></svg>Book on Agoda</a></li>
+          <li><a href="https://maps.google.com/?q=Alona+Mariners+Resort+Panglao" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5 5-2z"/></svg>Google Maps</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>The Mariners' Letter</h4>
+        <p style="font-size:.86rem;margin-bottom:14px;color:rgba(246,241,230,.55)">Seasonal rates and quiet-season offers, a few times a year. No noise.</p>
+        <form class="news-form" id="news-form" novalidate>
+          <input type="email" id="news-email" placeholder="Your email address" aria-label="Email address">
+          <button type="submit">Join</button>
+        </form>
+        <p class="news-msg"></p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Alona Mariners Resort · Tawala, Panglao Island, Bohol, Philippines</span>
+      <span class="foot-legal">Photography: resort property &amp; destination public listings · <a href="#faq">Guest policies</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ======= Booking modal ======= -->
+<div class="modal" id="booking-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="booking-title">
+  <div class="modal-card">
+    <button class="modal-x" type="button" data-close aria-label="Close booking form">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <h3 id="booking-title">Reserve your stay</h3>
+    <p class="sub">Direct inquiry — no prepayment. We confirm availability within 24 hours.</p>
+    <form id="booking-form" novalidate>
+      <div class="form-grid" id="booking-fields">
+        <div class="form-field">
+          <label for="m-name">Full name</label>
+          <input type="text" id="m-name" autocomplete="name" placeholder="Juan Dela Cruz">
+          <span class="err">Please enter your name.</span>
+        </div>
+        <div class="form-field">
+          <label for="m-email">Email</label>
+          <input type="email" id="m-email" autocomplete="email" placeholder="you@example.com">
+          <span class="err">Please enter a valid email.</span>
+        </div>
+        <div class="form-field">
+          <label for="m-phone">Phone / WhatsApp</label>
+          <input type="tel" id="m-phone" autocomplete="tel" placeholder="+63 900 000 0000">
+          <span class="err">Please enter a valid number.</span>
+        </div>
+        <div class="form-field">
+          <label for="m-guests">Guests</label>
+          <select id="m-guests">
+            <option>1</option><option selected>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+        </div>
+        <div class="form-field full">
+          <label for="m-room">Room type</label>
+          <select id="m-room"></select>
+        </div>
+        <div class="form-field">
+          <label for="m-checkin">Check-in</label>
+          <input type="date" id="m-checkin">
+          <span class="err">Select a check-in date.</span>
+        </div>
+        <div class="form-field">
+          <label for="m-checkout">Check-out</label>
+          <input type="date" id="m-checkout">
+          <span class="err">Check-out must follow check-in.</span>
+        </div>
+        <div class="form-field full">
+          <label for="m-notes">Special requests <span style="text-transform:none;letter-spacing:0;color:var(--muted)">(optional)</span></label>
+          <textarea id="m-notes" rows="2" placeholder="Airport pick-up, upper floor, anniversary…"></textarea>
+        </div>
+        <div class="price-summary" id="m-summary" aria-live="polite"></div>
+        <button class="btn btn-gold" type="submit">Send Reservation Inquiry</button>
+        <button class="btn btn-outline" type="button" id="m-wa-btn" hidden style="grid-column:1/-1;padding:14px;font-size:.7rem">
+          Need it faster? Send this inquiry via WhatsApp
+        </button>
+        <p class="form-note">Estimates are indicative; final quote is confirmed by the resort. Prefer instant booking?
+          <a href="https://www.agoda.com/en-in/alona-mariners-resort/hotel/bohol-ph.html" target="_blank" rel="noopener" style="color:var(--gold-deep);text-decoration:underline">Reserve via Agoda</a>
+        </p>
+      </div>
+
+      <div class="form-success" id="booking-success">
+        <span class="ok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+        </span>
+        <h3>Inquiry received</h3>
+        <p id="success-detail"></p>
+        <p style="font-size:.82rem;color:var(--muted)">Keep your reference — the resort will confirm by email or phone within 24 hours.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+          <button class="btn btn-outline" type="button" id="booking-wa-success" hidden style="padding:12px 22px;font-size:.68rem">Send via WhatsApp too</button>
+          <button class="btn btn-outline" type="button" id="booking-again" style="padding:12px 22px;font-size:.68rem">New inquiry</button>
+          <button class="btn btn-navy" type="button" data-close style="padding:12px 22px;font-size:.68rem">Done</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- ======= Lightbox ======= -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+  <span class="lb-count"></span>
+  <button class="lb-btn lb-close" type="button" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button class="lb-btn lb-prev" type="button" aria-label="Previous photo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <img src="" alt="">
+  <button class="lb-btn lb-next" type="button" aria-label="Next photo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <span class="lb-cap"></span>
+</div>
+
+<!-- ======= Floating WhatsApp ======= -->
+<a class="wa-float" id="wa-float" href="#" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp" hidden>
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+
+<!-- ======= Back to top ======= -->
+<button class="to-top" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<script src="js/config.js"></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
